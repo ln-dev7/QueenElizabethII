@@ -232,6 +232,13 @@ body {
   &-bg {
     width: 520px;
     flex-shrink: 0;
+    img{
+      filter: grayscale(1);
+      transition: .3s ease;
+      &:hover{
+        filter: grayscale(0);
+      }
+    }
     @media screen and (max-width: 1280px) {
       display: none;
     }
