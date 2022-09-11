@@ -539,6 +539,32 @@ body {
   opacity: 0.7;
 }
 
+.footer {
+  background: url("./assets/bg-dark.png") no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1rem;
+  border-top: 1px solid rgba(231, 232, 233, 0.6);
+}
+.footer img {
+  width: 50px;
+}
+.footer h1 {
+  font-size: 18px;
+  color: #e7e8e9;
+  text-transform: uppercase;
+  text-align: center;
+}
+.footer p {
+  color: #e7e8e9;
+  font-style: italic;
+  opacity: 0.7;
+}
+
 .author {
   display: flex;
   justify-content: center;
